@@ -213,8 +213,15 @@ footer{
 }
 .footerLinks a{
   margin-bottom: 14px;
+  color: black;
+  text-decoration: none;
 }
 
+.footerLinks a:hover{
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
 .footerContent p {
   margin:0;
 }
