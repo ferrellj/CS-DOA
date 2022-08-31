@@ -96,6 +96,13 @@ height: 21px;
 .navLinks li a {
   padding: .5rem 1rem;
 }
+ 
+.skills_container img{
+  margin: 2%;
+}
+.navLinks.active{
+  display: flex;
+}
 }
 /*CASE STUDY CARDS*/
 

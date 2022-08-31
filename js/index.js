@@ -25,7 +25,7 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
-})
+});
 
 let backgroundLink = document.querySelector("#backgroundLink");
 let background = document.querySelector("#background");
