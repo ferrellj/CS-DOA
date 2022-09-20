@@ -1,12 +1,12 @@
 
 body{
   font-size:calc(12px + 0.25vw);
-  line-height:calc(22px + 1vw);
+  line-height:calc(12px + 1vw);
   color: black;
   font-family: roboto, sans-serif;
 }
 p{
-  padding: 2%;
+  padding: %;
 }
 h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
 h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
@@ -14,16 +14,31 @@ h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
 
 h1,h2,h3 {
   line-height: 1.2;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   font-weight: 700;
+}
+h2{
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+h3 {
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  font-weight: 500;
 }
 
-a{
+a:link{
   color: black;
   text-decoration: none;
+  font-weight: 600;
 }
 a:hover{
-  font-weight: 700;
+  font-weight: 800;
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
 }
 
 .navbar{
@@ -35,6 +50,7 @@ a:hover{
   position: fixed;
   width: 100%;
   top: 0;
+  margin-bottom: 10%;
 }
 
 .brand-title{
@@ -206,7 +222,7 @@ footer{
     align-items: center;
     margin-top: 15%;
     justify-content: space-evenly;
- 
+    padding: 5%;
   }
  
 .footerLinks{
