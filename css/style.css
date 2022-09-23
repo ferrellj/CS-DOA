@@ -206,9 +206,17 @@ height: 21px;
     margin-top: 3%;
 }
 
-.return{
+button{
   float: right;
-  margin-right: 16%;
+  background-color: #a66c4b;
+  border-style:hidden;
+  font-family: roboto, sans-serif;
+  border-radius: 10PX;
+  margin-right: 15%!important;
+}
+button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 
 /*footer*/

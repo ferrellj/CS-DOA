@@ -235,7 +235,7 @@
         
               </section>
             </div>
-     
+     <button id="backTotop">BACK TO TOP</button>
             <footer>
               <div class="footerContent">
                 <div class="footerLinks">
@@ -250,7 +250,7 @@
                 </div>
               </div>
             </footer>
-            
+
         <script>
 
 
@@ -310,6 +310,16 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
 })
+
+let backTotop = document.querySelector("#backTotop");
+let cs_title = document.querySelector(".cs_title");
+
+backTotop.addEventListener("click", navigateTitle,false);
+function navigateTitle(e){
+  cs_title.scrollIntoView({
+    behavior:"smooth"
+  });
+}
                 </script>
       </body>
     </html>
