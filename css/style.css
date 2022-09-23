@@ -9,7 +9,7 @@ body{
 p{
   padding: 2%;
 }
-h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
+h1{font-size: 1.6em; line-height: calc(30px + 1vw)!important;}
 h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
 h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
 
@@ -34,7 +34,6 @@ a:hover{
 }
 
 .navbar{
-  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
@@ -88,7 +87,7 @@ height: 21px;
   border-radius: 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .toggle-button{
     display: flex;
   }
@@ -120,8 +119,13 @@ height: 21px;
 .navLinks.active{
   display: flex;
 }
-.cs_title{
+.titleImage{
+  margin-top: 20%;
   }
+.cs_title{
+  text-align: center;
+  padding: 2%!important;
+}
 }
 /*CASE STUDY CARDS*/
 
