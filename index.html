@@ -14,7 +14,7 @@
     <nav class="navbar">
       <a class="brand-title" href="https://ferrellj.github.io/Justine-Ferrell/">
         <img src="images\Logo.png"></img></a>
-
+        <h1 class="cs_title">US Department of Interiors Website Redesign</h1>
 
       <a href="#" class="toggle-button">
         <span class="bar"></span>
@@ -312,11 +312,11 @@ togglebutton.addEventListener('click',()=> {
 })
 
 let backTotop = document.querySelector("#backTotop");
-let cs_title = document.querySelector(".cs_title");
+let titleImage = document.querySelector(".titleImage");
 
 backTotop.addEventListener("click", navigateTitle,false);
 function navigateTitle(e){
-  cs_title.scrollIntoView({
+  titleImage.scrollIntoView({
     behavior:"smooth"
   });
 }

@@ -88,7 +88,7 @@ height: 21px;
   border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .toggle-button{
     display: flex;
   }
@@ -121,7 +121,6 @@ height: 21px;
   display: flex;
 }
 .cs_title{
-  margin-top: 30%!important;
   }
 }
 /*CASE STUDY CARDS*/
@@ -136,10 +135,6 @@ height: 21px;
     justify-content: center;
 }
 .cs_title{
-    margin-top: 7%;
-    margin-bottom: 30px;
-    align-items: center;
-    text-align: center;
     flex-wrap: wrap;
 }
 .titleImage{
