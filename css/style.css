@@ -120,12 +120,18 @@ height: 21px;
   display: flex;
 }
 .titleImage{
-  margin-top: 20%;
+  margin-top: 10%;
   }
 .cs_title{
   text-align: center;
   padding: 2%!important;
 }
+}
+
+@media (max-width: 800px) {
+  .titleImage{
+    margin-top: 20%;
+    }
 }
 /*CASE STUDY CARDS*/
 
