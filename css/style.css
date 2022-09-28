@@ -50,6 +50,7 @@ a:hover{
   display: flex;
   margin: o;
   padding: 0;
+  flex-wrap: nowrap;
 }
 .navLinks li{
   list-style: none;
@@ -92,8 +93,22 @@ height: 21px;
  background-color: black;
   border-radius: 10px;
 }
+@media (max-width: 1280px) {
+  h1{
+    font-size: 20pt!important;
+    font-weight: 800;
+  }
+  a{font-size: 12pt;}
+    }
+    @media (min-width: 1000px) {
+      h1{
+        font-size: 20pt!important;
+        font-weight: 800;
+      }
+      a{font-size: 12pt;}
+        }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
 
   h1{
     font-size: 18pt!important;
@@ -137,6 +152,7 @@ height: 21px;
 
 .navLinks li a {
   padding: .5rem 1rem;
+  font-size: 12pt;
 }
  
 .skills_container img{
@@ -244,7 +260,7 @@ button{
   border-style:hidden;
   border-color: transparent;
   font-family: roboto, sans-serif;
-  border-radius: 10PX;
+  border-radius: 5PX!important;
   margin-right: 15%!important;
 }
 button:hover{
@@ -261,6 +277,7 @@ button:active{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.2);
   border-color: transparent!important;
+  border-style: hidden!important;
 }
 
 /*footer*/
