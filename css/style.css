@@ -170,6 +170,9 @@ height: 21px;
 }
 
 @media (max-width: 800px) {
+  .cs_title{
+    
+  }
   .titleImage{
     margin-top: 30%;
   }
@@ -182,7 +185,8 @@ height: 21px;
       font-weight: 500;
     }
     .navLinks li a{
-      font-size: 10pt;
+      font-size: 12pt;
+      font-weight: 400;
       padding: .1rem!important;
     }
     
