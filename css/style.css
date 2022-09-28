@@ -92,22 +92,25 @@ height: 21px;
  background-color: black;
   border-radius: 10px;
 }
-@media (max-width: 1280px) {
-  h1{
-    font-size: 20pt!important;
-    font-weight: 800;
-  }
-  a{font-size: 12pt;}
-    }
-    @media (min-width: 1000px) {
+
+    @media (max-width: 1600px) {
       h1{
-        font-size: 20pt!important;
-        font-weight: 800;
+        font-size: 18pt!important;
+        font-weight: 700;
       }
-      a{font-size: 12pt;}
+      .cs_title{
+        max-width: 325px;
+        text-align: center;
+      }
+
+    h1{
+      font-size: 20pt!important;
+      font-weight: 800;
+    }
+    a{font-size: 10pt;}
         }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
 
   h1{
     font-size: 18pt!important;
