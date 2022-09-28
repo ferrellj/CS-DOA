@@ -103,10 +103,7 @@ height: 21px;
         text-align: center;
       }
 
-    h1{
-      font-size: 20pt!important;
-      font-weight: 800;
-    }
+    
     a{font-size: 10pt;}
         }
 
@@ -175,7 +172,16 @@ height: 21px;
 @media (max-width: 800px) {
   .titleImage{
     margin-top: 30%;
+  }
+    h1{
+      font-size: 14pt!important;
+      font-weight: 700;
     }
+    h2{
+      font-size: 14pt!important;
+      font-weight: 500;
+    }
+    
 }
 /*CASE STUDY CARDS*/
 
