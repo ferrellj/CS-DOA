@@ -255,6 +255,12 @@ height: 21px;
     margin-top: 3%;
 }
 
+.imageCopy{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+  justify-content: center;
+}
 button{
   float: right;
   background-color: #a66c4b;
