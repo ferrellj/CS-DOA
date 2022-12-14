@@ -261,6 +261,9 @@ height: 21px;
   margin-bottom: 1%;
   justify-content: center;
 }
+.imageCopy p{
+  font-size: 12pt;!important
+}
 button{
   float: right;
   background-color: #a66c4b;
